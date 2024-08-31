@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Matemasie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+nav {
+  border: 0.125rem solid black;
+  width: 25vw;
+  height: 150vh;
+  background-color: bisque;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  overflow: scroll;
+}
+
+.content {
+  position: absolute;
+  margin-left: 21rem;
+  background-color: bisque;
+}
+
+.nav__list {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 0.2rem;
+  list-style: none;
+  margin-left: -2rem;
+  margin-top: -0.4rem;
+}
+
+nav h1 {
+  margin-top: -0.125rem;
+  background-color: brown;
+  padding: 1rem;
+}
+
+hr {
+  height: 0.125rem;
+  background-color: black;
+  margin-top: -1.25rem;
+}
+
+.nav__list li {
+  border: 0.125rem solid black;
+  margin-left: -0.3rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+nav li:hover {
+  background-color: cadetblue;
+}
+
+nav li:active {
+  background-color: cornflowerblue;
+}
+
+#introduction h1 {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.abstract {
+  font-size: 0.8rem;
+  width: 28rem;
+  margin-left: 13rem;
+}
+
+p {
+  text-indent: 2rem;
+  margin: 0;
+}
+
+.network__list {
+  display: flex;
+  flex-flow: column nowrap;
+  list-style: decimal;
+  margin-left: 3rem;
+}
+
+.disk-image,
+.csvalues,
+.privacy {
+  width: 28rem;
+  margin-left: 15rem;
+}
+
+.figpa {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 10rem;
+}
+
+.simplified {
+  width: 34rem;
+  margin-left: 10rem;
+}
+
+.calc,
+.code1 {
+  width: 28rem;
+}
+
+footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: azure;
+  font-weight: 600;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
