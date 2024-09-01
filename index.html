@@ -109,6 +109,7 @@
               <img
                 src="Assets/transactions.jpeg"
                 alt="A basic Bitcoin transaction flow diagram"
+                class="transimg"
               />
             </figure>
             <p>The problem of course is the payee can't verify that one of the owners did not double-spend
@@ -139,7 +140,7 @@
               its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
             </p>
             <figure>
-              <img src="Assets/timestamp.png" alt="Time stamp server diagram">              
+              <img src="Assets/timestamp.png" alt="Time stamp server diagram" class="timestampimg">              
             </figure>
           </article>
         </div>
@@ -159,7 +160,7 @@
               would include redoing all the blocks after it.
             </p>
             <figure>
-              <img src="Assets/proof-of-work.svg" alt="Proof of work diagram">
+              <img src="Assets/proof-of-work.svg" alt="Proof of work diagram" class="proofimg">
             </figure>
             <p>The proof-of-work also solves the problem of determining representation in majority decision
               making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone
@@ -370,7 +371,7 @@
             <p>To get the probability the attacker could still catch up now, we multiply the Poisson density for
               each amount of progress he could have made by the probability he could catch up from that point:
               <figure>
-                <img src="Assets/calc3.png" alt="Poisson density divided by progress probability">
+                <img src="Assets/calc3.png" alt="Poisson density divided by progress probability" class="calc3">
               </figure>
             </p>
             <p>Converting to C code...
